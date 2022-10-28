@@ -26,6 +26,6 @@ void main() {
     // Verify that our counter has incremented.
     expect(find.text('0'), findsNothing);
     // This should fail.
-    expect(find.text('12'), findsOneWidget);
+    expect(find.text('123'), findsOneWidget);
   });
 }
